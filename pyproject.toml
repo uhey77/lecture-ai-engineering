@@ -1,0 +1,18 @@
+[project]
+name = "lecture-ai-engineering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.6.0",
+    "fastapi>=0.115.12",
+    "ipykernel>=6.29.5",
+    "protobuf>=6.30.2",
+    "pydantic>=2.11.3",
+    "pyngrok>=7.2.5",
+    "python-dotenv>=1.1.0",
+    "sentencepiece>=0.2.0",
+    "transformers>=4.51.3",
+    "uvicorn>=0.34.2",
+]
